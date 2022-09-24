@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>preciousphotographyng</title>
+</head>
+<body>
+    <div class="booknow-container">
+
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="navbar-right">
+                <a class="active" href="index.html">Home</a>
+                <a href="port.html">Portfolio</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="faq.html">FAQ</a>
+
+            </div>
+            <img src="socials/more.png" class="menu" alt="">
+            <img src="socials/cancel.png" class="close" alt="">
+
+        </nav>
+
+
+
+        <form class="quotation-form" action="https://formspree.io/f/mjvlpdkg" method="POST" >
+            <p>Complete The Form Below</p>
+
+            <div class="quotation-form-container">
+                <div class="top-quotation-form">
+                    <div>
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" name="fullname" placeholder="Full Name" required>
+                    </div>
+                    <div>
+                        <label for="nature">Nature of Event and or Photoshoot:</label>
+                    <input type="text" name="nature" placeholder="Nature of Event" required>
+                    </div>
+                    <div>
+                        <label for="date">Date for the Event and or Photoshoot:</label>
+                        <input type="text" name="date" placeholder="Date" required>
+                    </div>
+        
+                    <div>
+                        <select name="type" id="type">
+                           
+                            <option value="">Type of Shoot</option>
+                            <option value="studio">1 hour studio session(#50,000)</option>
+                            <option value="outdoor">1 hour outdoor session(#50,000)</option>
+                            <option value="home">1 hour home session session(#50,000)</option>
+                            <option value="home">Event(custom)</option>
+                        </select>
+                    </div>
+        
+                    <div>
+                        <label for="location">Location of Event and or Photoshoot:</label>
+                        <input type="text" name="location" placeholder="location" required>
+                    </div>
+    
+                </div>
+    
+                <div class="bottom-quotation-form">    
+                <div>
+                    <label for="numberOfPeople">Number of people in Event and or Photoshoot:</label>
+                    <input type="text" name="numberOfPeople" placeholder="Number of people" >
+                </div>
+    
+                <div>
+                    <label for="duration">Duration of Event and or Photoshoot:</label>
+                    <input type="text" name="duration" placeholder="Duration" required>
+                </div>
+                <div>
+                    <label for="quotation">Send quotation to:</label>
+                    <input type="text" name="quotation" placeholder="Email or Whatsapp Number" required>
+                </div>
+               
+
+             </div>
+        </div>
+           <div class="last-qoutation-form">
+            <div>
+                <label for="more-details">More Details:</label>
+                <textarea name="moreDetails" id="" cols="30" rows="10" placeholder="More details"></textarea>
+            </div >
+            <div class="check-boxes">
+
+                <div>
+                    <input type="checkbox" name="checkPortrait" id="" required>
+                    <label for="checkPortrait">PORTRAIT SESSION AGREEMENT & POLICIES: I understand that my session is not confirmed until the retainer is paid. Weather cancellations will be made at the photographers discretions. Tardiness of my session will not delay my session. My session will remain within the scheduled time frame. If I need to reschedule I will give contact prior to 48 hours notice of said reserved session date, otherwise I forfeit transfer of my retainer for a new session date. I will do best to reschedule my session within 2 weeks of original session date. I cannot always guarantee an available date two weeks out but will try my best to accommodate photographers schedule.</label>
+                   
+                </div>
+                <div>
+                    <input type="checkbox" name="checkPortrait2" id="" required>
+                    <label for="checkPortrait2">PHOTO SESSION RETAINER & SESSION PAYMENT AGREEMENT & POLICIES: I have read and agree to the following statement: I understand that my session is not confirmed until a non-refundable retainer of 70% is paid to provided account. I understand that my remaining session balance is due at the time of my session. Should the remaining/final balance not be paid my images will not be released. By checking the box I understand and agree to the terms and conditions set forth by Precious Photography.</label>
+                   
+                </div>
+                <div>
+                    <input type="checkbox" name="checkEvent" id="" required>
+                    <label for="checkEvent">DELIVERABLES AGREEMENT: I have read and i understand that I am entitled to agreed softcopies that further deliverables interms of prints, frames and photobooks are add ons and are charged according except if included in the package.</label>
+                   
+                </div>
+       
+            </div>
+          
+           </div>
+          
+           
+
+
+            <button>Send</button>
+        </form>
+
+        <div class="reply-feedback">
+            <!-- <video src="socials/final.mp4"></video> -->
+            <img src="socials/thumb.png" alt="">
+            <h2>Thank You for completing the form</h2>
+            <p>your quotation will be sent to <span>email</span> </p>
+        </div>
+
+
+    </div>
+    
+
+    <script src="sandbox.js"></script>
+</body>
+</html>
